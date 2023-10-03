@@ -1,5 +1,5 @@
 import requests
-
+#get NFL Boxscores through API
 def get_weekly_scores(week):
     url = "https://tank01-nfl-live-in-game-real-time-statistics-nfl.p.rapidapi.com/getNFLScoresOnly"
 
@@ -19,7 +19,7 @@ def get_weekly_scores(week):
         return None
 
 
-
+#find out Winners/losers of the Week
 def results(response):
     winners_list = []
     losers_list = []
@@ -50,8 +50,8 @@ response_data = get_weekly_scores(1)
 if response_data:
     winners_list, losers_list = results(response_data)
 
-    print("Gewinner:", winners_list)
-    print("Verlierer:", losers_list)
+    print("Winner:", winners_list)
+    print("Loser:", losers_list)
 
 
 
