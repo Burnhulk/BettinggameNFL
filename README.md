@@ -6,5 +6,7 @@ planned features:
   -bet on winning Teams
   -get automatic results every week
   -create a simple UI
+
+
 I'm a Beginner so be nice. Tips are very welcome. :)
 
