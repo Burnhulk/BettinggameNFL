@@ -5,4 +5,5 @@ planned features:
   -see Score
   -bet on winning Teams
   -get automatic results every week
+I'm a Beginner so be nice :)
 
