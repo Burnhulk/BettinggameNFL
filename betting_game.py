@@ -9,7 +9,7 @@ def get_weekly_scores(week):
     querystring = {"gameWeek": str(week),"season":"2023"}
 
     headers = {
-        "X-RapidAPI-Key": "716fb2ca88mshf756797310b748bp1b72c3jsn856097f3bd81",
+        "X-RapidAPI-Key": "", #APIkey
         "X-RapidAPI-Host": "tank01-nfl-live-in-game-real-time-statistics-nfl.p.rapidapi.com"
     }
 
